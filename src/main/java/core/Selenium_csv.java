@@ -35,7 +35,7 @@ public class Selenium_csv {
 		String SplitBy = ",";
 		String text_case_id = null;
 		String url = null;
-		String title_expected = null;
+		String title_expected = "1";
 
 		try {
 			br = new BufferedReader(new FileReader(csvFile));
