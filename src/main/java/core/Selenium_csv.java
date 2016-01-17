@@ -1,4 +1,3 @@
-//	Maven	Maven Project	Selenium with CSV File
 package core;
 
 //BEGIN
@@ -11,22 +10,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-/**
- * Selenium_csv //ADDD (description of class)
- * <p>
- * //ADDD (description of core fields)
- * <p>
- * //ADDD (description of core methods)
- * 
- * @author      Yutaka
- * @version     1.0.0
- * @since       1.0
- *
- */
 public class Selenium_csv {
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		String csvFile = "./src/main/resources/Test.csv";
@@ -35,7 +19,7 @@ public class Selenium_csv {
 		String SplitBy = ",";
 		String text_case_id = null;
 		String url = null;
-		String title_expected = "1";
+		String title_expected = null;
 
 		try {
 			br = new BufferedReader(new FileReader(csvFile));
